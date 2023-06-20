@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ROPA JD</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="textos-hero">
+            <h1>Bienvenido a ropa JD</h1>
+            <p>Tenemos la mejor ropa para ti</p>
+            <a href="#catalog">Explorar</a>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <section id="catalog">
+    <section class="wave-contenedor website">
+        <img src="img/product1.jpg" alt="">
+        <div class="contenedor-textos-main">
+            <h2 class="titulo left">Camiseta Negra </h2>
+            <p class="parrafo">Precio: $ 50.000</p>
+            <a href="" class="cta">agregar al carrito</a>
+        </div>
+    </section>
+
+    <section class="wave-contenedor website">
+        <img src="img/product2.jpg" alt="">
+        <div class="contenedor-textos-main">
+            <h2 class="titulo left">Camiseta Blanca</h2>
+            <p class="parrafo">Precio: $ 50.000</p>
+            <a href="" class="cta">agregar al carrito</a>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="contenedor">
+            <h2 class="titulo left">REVISA NUESTRA GRAN VARIEDAD DE ROPA </h2>
+            <p>TENEMOS MUCHAS CLASES DE PROMOCIONES.</p>
+        </div>
+    </section>
+
+    <section class="cards contenedor">
+        <h2 class="titulo">PROMOCIONES</h2>
+        <div class="content-cards">
+            <article class="card">
+                <img src="img/promotion1.png" alt="">
+                <h3>Pantalon cargo Negro</h3>
+                <p>Precio:$150.000 </p>
+                <a href="#catalog" class="cta">agragar al carrito</a>
+            </article>
+         |
+                <article class="card">
+                    <img src="img/promotion1.png" alt="">
+                    <h3>Pantalon cargo Negro</h3>
+                    <p>Precio:$150.000 </p>
+                    <a href="#catalog" class="cta">agragar al carrito</a>
+                </article>
+            
+            <article class="card">
+                <img src="img/promotion1.png" alt="">
+                <h3>Pantalon cargo Negro</h3>
+                <p>Precio:$150.000 </p>
+                <a href="#catalog" class="cta">agragar al carrito</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <div class="contenedor">
+            <h2 class="titulo">Our work</h2>
+            <article class="galeria-cont">
+                <img src="img/promotion1.png" alt="">
+                <img src="img/promotion2.png " alt="">
+                <img src="img/buzo-negro.jpg" alt="">
+                <img src="img/cuatro.jpg" alt="">
+                <img src="img/cinco.jpg" alt="">
+                <img src="img/seis.jpg" alt="">
+            </article>
+        </div>
+    </section>
+
+    <section class="info-last">
+
+        <div class="contenedor last-section">
+            <div class="contenedor-textos-main">
+                <h2 class="titulo left">INFORMACION</h2>
+                <p class="parrafo">EN NUESTRA TIENDA ROPA TENEMOS NUEVA COLECCION SEMANALMENTE ASI QUE TE INVITAMOS A ESTAR PENDIENTE A NUESTRA PAGINA WEB</p>
+                <a href="#catalog" class="cta">CATALOGO</a>
+            </div>
+            <img src="img/LOGO-PP.png" alt="">
+        </div>
+        
+        <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #383838;"></path>
+        </svg></div>
+    </section>
+
+    <footer id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Contacto</h2>
+            <form action="" class="form">
+                <input class="input"  type="text" name="" id="" placeholder="Nombre">
+                <input class="input"  type="email" name="" id="" placeholder="Email">
+                <textarea  class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input class="input"  type="submit" value="Enviar">
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
