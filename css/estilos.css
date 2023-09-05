@@ -26,7 +26,7 @@ body{
 
 .textos-hero{
     height: 500px;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +48,7 @@ body{
     padding: 12px 15px;
     background: #000000;
     border-radius: 8px;
-    color: #fff;
+    color: #e6e6e6;
 }
 
 .svg-hero{
@@ -111,20 +111,20 @@ body{
     display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(45deg, #000000 0%, #000000 99%, #ffffff 100%);
-    padding: 12px 15px;
+    padding: 20px 15px;
     border-radius: 8px;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Info */
 
 .info{
     background: #000000;
-    color: #fff;
+    color: #ffffff;
 }
 
 
-/* Cards */
+/* promociones */
 
 .content-cards{
     display: flex;
@@ -160,29 +160,6 @@ body{
     margin-bottom: 10px;
 }
 
-/* galeria */
-
-.galeria{
-    background: #f2f2f2;
-}
-
-.galeria-cont{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    overflow: hidden;
-}
-
-.galeria-cont>img{
-    width: 30%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    display: block;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
-    cursor: pointer;
-    overflow: hidden;
-}
 
 /* info2 */
 
